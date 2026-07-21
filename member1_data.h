@@ -13,5 +13,6 @@ typedef struct {
 } Showtime;
 
 void initializeData();
+void displayMovieInfo();
 
 #endif

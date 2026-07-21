@@ -3,9 +3,11 @@
 
 int main()
 {
-    printf("Testing Member 1 Module\\n");
+    printf("Testing Member 1 Module\n\n");
 
     initializeData();
+
+    displayMovieInfo();
 
     return 0;
 }
