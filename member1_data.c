@@ -17,5 +17,23 @@ void initializeData()
         }
     }
 
-    printf("Data initialized successfully!\\n");
+    printf("Data initialized successfully!\n");
+}
+
+void displayMovieInfo()
+{
+    printf("\nMovie Name : %s\n", showtimes[0].movieName);
+    printf("Show Time  : %s\n\n", showtimes[0].time);
+
+    printf("Seat Map\n");
+
+    for(int i = 0; i < ROWS; i++)
+    {
+        for(int j = 0; j < COLS; j++)
+        {
+            printf("%c ", showtimes[0].seatMap[i][j]);
+        }
+
+        printf("\n");
+    }
 }
