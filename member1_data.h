@@ -40,5 +40,7 @@ extern Showtime showtimes[MAX_MOVIES * MAX_SHOWTIMES];
 extern int showtimeCount;
 
 void initializeData();
+void displayMovieInfo();
+void displayAllShowtimes();
 
 #endif
